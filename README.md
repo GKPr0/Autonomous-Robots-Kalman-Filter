@@ -10,6 +10,12 @@ matplotlib=3.1.0 <br>
 
 <h3> Kalman Filter </h3>
 <p>Detailed infomation <a href ="https://en.wikipedia.org/wiki/Kalman_filter"> here</a> !</p>
+<p> - represent the estimated state as a probability distribution</p>
+<p> - Represent the measurements or obervations of the current state (or function of the state) as a probability distribution</p>
+<p> - Fuse the two distributions to get a better estimate (Bayes Theorem) </p>
+<p> - Prediction process increase the uncertainity with time </p>
+<p> - Update/Measurement process decrease the uncertainity</p>
+<p> - Kalman Filter allows use to do this numerically and mathematically simply, by making a few assumptions about the probabilty distributions and a few other properties of the dynamic system</p>
 <p> First we design 5 matrix below and then we used them in 2 step:</p>
 <p> 1. Predict new state and state uncertainity </p>
 <p> 2. Measure and update state and state uncertainity</p>
